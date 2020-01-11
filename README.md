@@ -9,6 +9,8 @@ ADRecon is a tool which extracts and combines various artefacts (as highlighted 
 
 Bloodhound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment. https://github.com/BloodHoundAD/BloodHound
 
+Disabe-Amsi https://github.com/KurtDeGreeff/PlayPowershell/blob/master/Disable-AMSI.ps1
+
 Mimikatz extract plaintexts passwords, hash, PIN code and kerberos tickets from memory. https://github.com/PowerShellMafia/PowerSploit
 
 Invoke-PoshRatHttp Reverse HTTP Shell. https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PoshRatHttp.ps1
