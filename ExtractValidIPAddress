@@ -1,0 +1,11 @@
+#Function
+Function ExtractValidIPAddress($String){
+    $IPregex=‘(?<Address>((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))’
+    If ($String -Match $IPregex) {$Matches.Address}
+}
+ 
+#Log line
+$Line = 'AUDIT "2018-06-19 00:14:16.481 GMT+0200"  10.13.11.7 Server01:1812 0 0 "text=Access GRANTED cloudId=pawel.janowicz'
+ 
+#Run function
+ExtractValidIPAddress $Line
