@@ -18,8 +18,8 @@ r.gordon
 r.gordo
 """
 
-vname = "robert"
-nname = "gordon"
+vname  = input("Enter Name: ")
+nname  = input("Enter Surname: ")
 
 vnameLen = len (vname)
 nnameLen = len (nname)
