@@ -36,7 +36,7 @@ for x in range(vnameLen):
 
 for x in range(nnameLen):
     for y in range(vnameLen):
-        print(nname[0:x+1]+vname[0:nnameLen-y])
+        print(nname[0:x+1]+vname[0:vnameLen-y])
 
 for x in range(vnameLen):
     for y in range(nnameLen):
@@ -44,4 +44,4 @@ for x in range(vnameLen):
 
 for x in range(nnameLen):
     for y in range(vnameLen):
-        print(nname[0:x+1]+"."+vname[0:nnameLen-y])
+        print(nname[0:x+1]+"."+vname[0:vnameLen-y])
